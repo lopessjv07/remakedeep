@@ -1,17 +1,8 @@
 import type { NextConfig } from "next";
-import path from "path";
 
 const nextConfig: NextConfig = {
-  // Turbopack root explicitamente configurado para o diretório remake
-  turbopack: {
-    root: path.resolve(__dirname),
-  },
-
   // Habilita o compilador do React para otimização automática de renderização
   reactCompiler: true,
-
-  // Gera um servidor standalone mínimo para deploy Docker
-  output: "standalone",
 
   // Permite proxy reverso (Traefik/Coolify) no modo dev
   allowedDevOrigins: ["neurosoma.online", "*.neurosoma.online"],
