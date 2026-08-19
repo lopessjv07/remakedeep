@@ -19,10 +19,10 @@
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.15rem; color: var(--bg-dark); }
 .navCta {
   font-size: 0.8rem; font-weight: 600; color: var(--bg-dark);
-  border: 1px solid rgba(4, 44, 83, 0.25); padding: 8px 18px;
+  border: 1px solid rgba(36, 54, 115, 0.25); padding: 8px 18px;
   border-radius: 4px; transition: background 0.2s;
 }
-.navCta:hover { background: rgba(4, 44, 83, 0.06); }
+.navCta:hover { background: rgba(36, 54, 115, 0.06); }
 
 /* ── Badge ── */
 .badge {
@@ -30,8 +30,8 @@
   text-transform: uppercase; letter-spacing: 0.1em;
   padding: 5px 12px; border-radius: 4px; margin-bottom: 20px;
 }
-.badgeDark { background: rgba(4, 44, 83, 0.06); border: 1px solid var(--bg-dark); color: var(--bg-dark); }
-.badgeLight { background: rgba(15,110,86,0.06); border: 1px solid var(--accent-green-dark); color: var(--accent-green-dark); }
+.badgeDark { background: rgba(36, 54, 115, 0.06); border: 1px solid var(--bg-dark); color: var(--bg-dark); }
+.badgeLight { background: rgba(0, 117, 190,0.06); border: 1px solid var(--accent-green-dark); color: var(--accent-green-dark); }
 
 /* ── Buttons ── */
 .cta {
@@ -55,14 +55,14 @@
   line-height: 1.12; letter-spacing: -0.03em; margin-bottom: 20px;
   text-align: left; width: 100%; max-width: 920px;
 }
-.heroTitle span { color: #084c3b; }
+.heroTitle span { color: var(--accent-green-dark); }
 .heroSub {
-  font-size: 1.18rem; color: rgba(4, 44, 83, 0.88); line-height: 1.6; margin-bottom: 28px; max-width: 860px;
+  font-size: 1.18rem; color: rgba(36, 54, 115, 0.88); line-height: 1.6; margin-bottom: 28px; max-width: 860px;
   text-align: left; width: 100%; font-weight: 500;
 }
 .heroSub strong {
   font-weight: 800;
-  color: #042C53;
+  color: var(--text-heading);
   font-size: 1.25rem;
   display: inline-block;
   margin-bottom: 6px;
@@ -87,14 +87,14 @@
 }
 .heroCheckIcon {
   flex-shrink: 0;
-  color: #0F6E56;
+  color: var(--accent-green-dark);
   font-weight: 800;
   font-size: 1.1rem;
   margin-top: 2px;
 }
 .heroCheckItem strong {
   font-weight: 700;
-  color: #042C53;
+  color: var(--text-heading);
 }
 
 .mockup {
@@ -138,7 +138,7 @@
   border-radius: 8px;
   padding: 36px 30px;
   text-align: left;
-  box-shadow: 0 4px 20px rgba(4, 44, 83, 0.04);
+  box-shadow: 0 4px 20px rgba(36, 54, 115, 0.04);
 }
 .compareCardBad {
   background: #ffffff;
@@ -167,7 +167,7 @@
   border-radius: 4px;
 }
 .compareBadgeGood {
-  background: rgba(15, 110, 86, 0.1);
+  background: rgba(0, 117, 190, 0.1);
   color: var(--accent-green-dark);
   font-size: 0.72rem;
   font-weight: 800;
@@ -191,7 +191,7 @@
   align-items: flex-start;
   gap: 12px;
   font-size: 0.95rem;
-  color: #4A5B6D;
+  color: var(--text-on-light);
   line-height: 1.55;
 }
 .compareIconBad {
@@ -210,7 +210,7 @@
 /* ── Hero Warning Block ── */
 .warningBlock {
   background: #ffffff;
-  border: 1px solid rgba(4, 44, 83, 0.1);
+  border: 1px solid rgba(36, 54, 115, 0.1);
   border-left: 3px solid #C0392B;
   border-radius: 4px;
   padding: 18px 22px;
@@ -221,7 +221,7 @@
 }
 .warningText {
   font-size: 0.9rem;
-  color: rgba(4, 44, 83, 0.9);
+  color: rgba(36, 54, 115, 0.9);
   line-height: 1.55;
 }
 .warningText strong {
@@ -234,10 +234,10 @@
   color: #fff;
 }
 .hero .cta:hover {
-  background: #083c6d;
+  background: #1b2956;
 }
 .hero .ctaSub {
-  color: rgba(4, 44, 83, 0.75);
+  color: rgba(36, 54, 115, 0.75);
 }
 
 /* ── Modules Section ── */
@@ -253,7 +253,7 @@
   border: 1px solid var(--border-light);
   border-radius: 8px;
   padding: 28px;
-  box-shadow: 0 2px 14px rgba(4, 44, 83, 0.03);
+  box-shadow: 0 2px 14px rgba(36, 54, 115, 0.03);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
@@ -262,7 +262,7 @@
 }
 .moduleCard:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(4, 44, 83, 0.08);
+  box-shadow: 0 8px 24px rgba(36, 54, 115, 0.08);
 }
 .moduleHeader {
   display: flex;
@@ -275,7 +275,7 @@
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  background: rgba(15, 110, 86, 0.08);
+  background: rgba(0, 117, 190, 0.08);
   color: var(--accent-green-dark);
   padding: 4px 10px;
   border-radius: 4px;
@@ -306,7 +306,7 @@
   border-top: 4px solid var(--accent-green-dark);
   border-radius: 8px;
   padding: 36px 30px;
-  box-shadow: 0 4px 20px rgba(4, 44, 83, 0.04);
+  box-shadow: 0 4px 20px rgba(36, 54, 115, 0.04);
   text-align: left;
 }
 .appHeader {
@@ -339,7 +339,7 @@
 }
 .appItem {
   font-size: 0.95rem;
-  color: #4A5B6D;
+  color: var(--text-on-light);
   line-height: 1.6;
 }
 .appItem strong {
@@ -361,13 +361,13 @@
   display: flex; align-items: flex-start; gap: 18px;
   background: #fff; border: 1px solid var(--border-light);
   border-radius: 6px; padding: 28px;
-  box-shadow: 0 2px 12px rgba(4,44,83,0.03);
+  box-shadow: 0 2px 12px rgba(36, 54, 115,0.03);
   transition: transform 0.2s, box-shadow 0.2s;
   text-align: left;
 }
 .benefitItem:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(4,44,83,0.07);
+  box-shadow: 0 6px 24px rgba(36, 54, 115,0.07);
 }
 .benefitIcon { width: 24px; height: 24px; flex-shrink: 0; margin-top: 4px; color: var(--accent-green-dark); }
 .benefitTitle { font-size: 1.1rem; font-weight: 800; margin-bottom: 6px; color: var(--text-on-light); }
@@ -386,8 +386,8 @@
 
 /* ── Important Notice ── */
 .importantNotice {
-  background: #ECEAE3;
-  border: 1px solid rgba(4,44,83,0.08);
+  background: var(--bg-light);
+  border: 1px solid rgba(36, 54, 115,0.08);
   border-left: 4px solid var(--accent-green-dark);
   border-radius: 4px;
   padding: 36px 32px;
@@ -400,7 +400,7 @@
   color: var(--text-on-light);
 }
 .importantText {
-  font-size: 1rem; color: #4A5B6D; line-height: 1.65;
+  font-size: 1rem; color: var(--text-on-light); line-height: 1.65;
   margin-bottom: 10px;
 }
 .importantText:last-child { margin-bottom: 0; }
@@ -462,10 +462,10 @@
   background: #fff; border: 1px solid var(--border-light);
   border-top: 3px solid var(--accent-green-dark);
   border-radius: 0 0 6px 6px; padding: 36px 28px;
-  box-shadow: 0 2px 12px rgba(4,44,83,0.03);
+  box-shadow: 0 2px 12px rgba(36, 54, 115,0.03);
 }
 .audienceTitle { font-size: 1.15rem; font-weight: 800; margin-bottom: 12px; color: var(--text-on-light); }
-.audienceDesc { font-size: 0.95rem; color: #4A5B6D; line-height: 1.6; }
+.audienceDesc { font-size: 0.95rem; color: var(--text-on-light); line-height: 1.6; }
 
 /* ── Verified Badge ── */
 .verified {
@@ -477,7 +477,7 @@
 /* ── Bonus Description ── */
 .bonusDescText {
   font-size: 0.82rem;
-  color: #4A5B6D;
+  color: var(--text-on-light);
   line-height: 1.5;
   margin-top: 8px;
 }
@@ -517,7 +517,7 @@
 .mainProduct {
   background: #fff; border: 1px solid var(--border-light);
   border-radius: 6px; padding: 44px; position: relative;
-  box-shadow: 0 2px 20px rgba(4,44,83,0.04);
+  box-shadow: 0 2px 20px rgba(36, 54, 115,0.04);
 }
 .mainProductTag {
   position: absolute; top: -14px; left: 24px;
@@ -534,7 +534,7 @@
 
 .bonusGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .bonusCard {
-  background: #ECEAE3; border: 1px solid rgba(4,44,83,0.06);
+  background: var(--bg-light); border: 1px solid rgba(36, 54, 115,0.06);
   border-radius: 4px; padding: 24px;
 }
 .bonusLabel { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; color: var(--accent-green-dark); margin-bottom: 10px; display: block; }
@@ -591,7 +591,7 @@
   display: inline-flex; align-items: center; gap: 8px;
   font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
   letter-spacing: 0.08em; color: var(--accent-teal);
-  background: rgba(93,202,165,0.1); border: 1px solid var(--accent-teal);
+  background: rgba(191, 209, 255,0.1); border: 1px solid var(--accent-teal);
   padding: 6px 16px; border-radius: 100px; margin-bottom: 20px;
 }
 .guaranteeText { font-size: 1.05rem; color: var(--text-on-dark-soft); max-width: 520px; margin: 0 auto 40px; line-height: 1.55; }
@@ -622,12 +622,12 @@
   user-select: none;
 }
 .faqQ::-webkit-details-marker { display: none; }
-.faqA { padding: 0 24px 22px; font-size: 0.9rem; color: #4A5B6D; line-height: 1.6; }
+.faqA { padding: 0 24px 22px; font-size: 0.9rem; color: var(--text-on-light); line-height: 1.6; }
 .faqIcon { transition: transform 0.2s; color: var(--text-secondary); }
 .faqItem[open] .faqIcon { transform: rotate(45deg); color: var(--accent-green-dark); }
 
 /* ── Footer ── */
-.footer { background: #031E3A; padding: 40px 24px; color: rgba(255,255,255,0.7); font-size: 0.75rem; }
+.footer { background: var(--bg-dark); padding: 40px 24px; color: rgba(255,255,255,0.7); font-size: 0.75rem; }
 .footerInner { max-width: var(--max-w); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
 .footerBrand { color: #fff; font-weight: 800; font-size: 1rem; }
 

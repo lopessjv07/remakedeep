@@ -127,25 +127,6 @@ export default function Home() {
                 <strong>A resposta não está no currículo. Está no método.</strong><br />
                 90 Protocolos Somáticos organizados para diferentes estados do sistema nervoso, sem precisar criar tudo do zero.
               </p>
-              
-              <div className={styles.heroCheckList}>
-                <div className={styles.heroCheckItem}>
-                  <span className={styles.heroCheckIcon}>✓</span>
-                  <span><strong>Mais direção clínica:</strong> tenha recursos organizados para quando a sessão trava, o paciente hiperativa, dissocia ou entra em shutdown.</span>
-                </div>
-                <div className={styles.heroCheckItem}>
-                  <span className={styles.heroCheckIcon}>✓</span>
-                  <span><strong>Mais repertório além da fala:</strong> respiração, aterramento, movimento, tapping, estimulação bilateral, voz e outros recursos somáticos.</span>
-                </div>
-                <div className={styles.heroCheckItem}>
-                  <span className={styles.heroCheckIcon}>✓</span>
-                  <span><strong>Mais percepção de método:</strong> conduza suas sessões com uma estrutura que vai além de apenas perguntar, acolher e esperar o paciente processar.</span>
-                </div>
-                <div className={styles.heroCheckItem}>
-                  <span className={styles.heroCheckIcon}>✓</span>
-                  <span><strong>Pronto para consulta:</strong> material digital organizado para acessar no celular, tablet ou computador.</span>
-                </div>
-              </div>
             </div>
 
             <div className={styles.mockup}>
@@ -383,12 +364,12 @@ export default function Home() {
 
             <div className={styles.priceBlock}>
               <p className={styles.priceOld}>De R$ 197,00 por apenas</p>
-              <p className={styles.priceMain}>R$ <span>29</span></p>
-              <p className={styles.priceCash}>ou 5x de R$ 6,51 no cartão</p>
+              <p className={styles.priceMain}>R$ <span>37,00</span></p>
+              <p className={styles.priceCash}>ou parcelado no cartão</p>
             </div>
 
             <div className={styles.ctaWrap}>
-              <a href="https://pay.kirvano.com/5b62b770-7be4-44b3-be73-09ddf401fbaf" className={`${styles.cta} ${styles.ctaFull}`}>
+              <a href="https://pay.kirvano.com/d8c9c8af-caa8-4045-8739-930438fa53ad" className={`${styles.cta} ${styles.ctaFull}`}>
                 <IconLock />
                 CLIQUE AQUI E ACESSE AGORA
               </a>
