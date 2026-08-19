@@ -118,11 +118,14 @@ export default function Home() {
           <div className={styles.heroInner}>
             <div className={styles.heroContent}>
               <span className={`${styles.badge} ${styles.badgeDark}`}>Protocolos Somáticos & Regulação do Sistema Nervoso</span>
+              
               <h1 className={styles.heroTitle}>
-                O que diferencia uma sessão comum de um atendimento que transmite método, direção e mais valor?
+                Por que dois terapeutas com a mesma formação cobram preços tão diferentes?
               </h1>
+              
               <p className={styles.heroSub}>
-                90 Protocolos Somáticos prontos para ajudar você a ir além da fala em sessão — com recursos organizados para diferentes estados do sistema nervoso, sem precisar criar tudo do zero.
+                <strong>A resposta não está no currículo. Está no método.</strong><br />
+                90 Protocolos Somáticos organizados para diferentes estados do sistema nervoso, sem precisar criar tudo do zero.
               </p>
               
               <div className={styles.heroCheckList}>
@@ -164,8 +167,73 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 2 ─ AMOSTRA */}
+        {/* 2 ─ SEÇÃO COMPARATIVA: A DIFERENÇA DO MÉTODO */}
         <section className={`${styles.sectionSm} ${styles.light}`}>
+          <div className={styles.wrap}>
+            <div className={`${styles.secHead} ${styles.secHeadCenter}`}>
+              <span className={`${styles.badge} ${styles.badgeLight}`}>Diferencial Clínico</span>
+              <h2 className={styles.secTitle}>O que diferencia uma sessão comum de um atendimento com método somático?</h2>
+              <p className={styles.secSub}>Entenda como a estrutura de intervenção transforma o valor percebido pelo seu paciente:</p>
+            </div>
+
+            <div className={styles.compareGrid}>
+              {/* Atendimento Apenas Verbal */}
+              <div className={`${styles.compareCard} ${styles.compareCardBad}`}>
+                <div className={styles.compareHeader}>
+                  <span className={styles.compareBadgeBad}>Abordagem Tradicional Apenas Verbal</span>
+                </div>
+                <h3 className={styles.compareTitle}>Sessão Comum (Sem Método Somático)</h3>
+                <div className={styles.compareList} style={{ marginTop: "18px" }}>
+                  <div className={styles.compareItem}>
+                    <span className={styles.compareIconBad}>✕</span>
+                    <span>Fica presa na narrativa racional e repetitiva do paciente.</span>
+                  </div>
+                  <div className={styles.compareItem}>
+                    <span className={styles.compareIconBad}>✕</span>
+                    <span>Sensação de que o caso travou após meses sem evolução visível.</span>
+                  </div>
+                  <div className={styles.compareItem}>
+                    <span className={styles.compareIconBad}>✕</span>
+                    <span>Insegurança ao lidar com congelamento, colapso ou dissociação súbita.</span>
+                  </div>
+                  <div className={styles.compareItem}>
+                    <span className={styles.compareIconBad}>✕</span>
+                    <span>Percepção de atendimento comum ("apenas mais um bate-papo").</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Atendimento com o Kit Somático */}
+              <div className={`${styles.compareCard} ${styles.compareCardGood}`}>
+                <div className={styles.compareHeader}>
+                  <span className={styles.compareBadgeGood}>Com o Kit de Protocolos Somáticos</span>
+                </div>
+                <h3 className={styles.compareTitle}>Atendimento com Direção & Método</h3>
+                <div className={styles.compareList} style={{ marginTop: "18px" }}>
+                  <div className={styles.compareItem}>
+                    <span className={styles.compareIconGood}>✓</span>
+                    <span>Acessa a regulação do sistema nervoso autônomo onde o trauma reside.</span>
+                  </div>
+                  <div className={styles.compareItem}>
+                    <span className={styles.compareIconGood}>✓</span>
+                    <span>Desbloqueia sessões estagnadas com intervenções práticas e imediatas.</span>
+                  </div>
+                  <div className={styles.compareItem}>
+                    <span className={styles.compareIconGood}>✓</span>
+                    <span>Total clareza e segurança ao conduzir qualquer estado autonômico.</span>
+                  </div>
+                  <div className={styles.compareItem}>
+                    <span className={styles.compareIconGood}>✓</span>
+                    <span>Alta percepção de método, autoridade e valor percebido da consulta.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 3 ─ AMOSTRA */}
+        <section className={`${styles.sectionSm} ${styles.light}`} style={{ borderTop: "1px solid var(--border-light)" }}>
           <div className={styles.wrap}>
             <div className={`${styles.secHead} ${styles.secHeadCenter}`}>
               <h2 className={styles.secTitle}>Veja como é o material por dentro:</h2>
@@ -175,7 +243,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 3 ─ PROVA SOCIAL & DEPOIMENTOS */}
+        {/* 4 ─ PROVA SOCIAL & DEPOIMENTOS */}
         <section className={`${styles.sectionSm} ${styles.light}`} style={{ borderTop: "1px solid var(--border-light)" }}>
           <div className={styles.wrap}>
             <div className={`${styles.secHead} ${styles.secHeadCenter}`}>
@@ -205,7 +273,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 4 ─ ORGANIZAÇÃO DOS PROTOCOLOS */}
+        {/* 5 ─ ORGANIZAÇÃO DOS PROTOCOLOS */}
         <section className={`${styles.section} ${styles.light}`} style={{ borderTop: "1px solid var(--border-light)" }}>
           <div className={styles.wrap}>
             <div className={`${styles.secHead} ${styles.secHeadCenter}`}>
@@ -231,7 +299,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 5 ─ APLICAÇÕES PRÁTICAS */}
+        {/* 6 ─ APLICAÇÕES PRÁTICAS */}
         <section className={`${styles.section} ${styles.dark}`}>
           <div className={styles.wrap}>
             <div className={`${styles.secHead} ${styles.secHeadCenter}`}>
@@ -290,7 +358,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 6 ─ OFERTA / BÔNUS */}
+        {/* 7 ─ OFERTA / BÔNUS */}
         <section className={`${styles.section} ${styles.light}`} style={{ borderTop: "1px solid var(--border-light)" }}>
           <div className={styles.wrap}>
             <div className={`${styles.secHead} ${styles.secHeadCenter}`}>
@@ -302,7 +370,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 7 ─ GARANTIA & CHECKOUT */}
+        {/* 8 ─ GARANTIA & CHECKOUT */}
         <section id="checkout" className={styles.checkout}>
           <div className={styles.checkoutCard}>
             <span className={styles.guaranteeSeal}>
@@ -335,7 +403,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 8 ─ FAQ */}
+        {/* 9 ─ FAQ */}
         <section className={`${styles.section} ${styles.light}`}>
           <div className={styles.wrap}>
             <div className={`${styles.secHead} ${styles.secHeadCenter}`}>
